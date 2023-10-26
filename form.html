@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tell me your story</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <header>
+        <ul class="pageNav">
+            <li><a href="./home.html">HOME</a></li>
+            <li class="active"><a href="./form.html">FORM</a></li>
+            <li><a href="./links.html">LINKS</a></li>
+            <li><a class="active" href="./pictures.html">PICTURES</a></li>
+        </ul>
+        
+        
+    </header>
+    <h1 class="pageTopHead">Have A Story? Tell me.</h1>
+    <form action="submit">
+        <fieldset>
+            <label for="firstName" id="name">First Name: <input id="firstName" type="text"></label>
+            <label for="lastName">Last Name:<input type="text" name="lastName" id="lastName"></label>
+        </fieldset>
+        <fieldset>
+            <label for="story">Story: <textarea name="story" id="story" cols="30" rows="10"></textarea>
+            </label>
+            <label for="radio">Do you agree that this story could be shared?
+                <input type="radio" name="agree" id="agree">Yes
+                <input type="radio" name="agree" id="agree">No
+            </label>
+        </fieldset>
+    </form>    
+    <button>Submit</button>
+</body>
+</html>
