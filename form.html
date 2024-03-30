@@ -22,13 +22,15 @@
         <fieldset>
             <label for="firstName" id="name">First Name: <input id="firstName" type="text"></label>
             <label for="lastName">Last Name:<input type="text" name="lastName" id="lastName"></label>
+            <label for="email">email:<input type="email" name="email" id="email"></label>
         </fieldset>
         <fieldset>
             <label for="story">Story: <textarea name="story" id="story" cols="30" rows="10"></textarea>
             </label>
-            <label for="radio">Do you agree that this story could be shared?
-                <input type="radio" name="agree" id="agree">Yes
-                <input type="radio" name="agree" id="agree">No
+            <label for="radio">Is it okay to share this story?
+                <input type="radio" class="radio" name="agree" id="agree">Yes
+                <input type="radio"
+                class="radio" name="agree" id="disagree">No
             </label>
         </fieldset>
     </form>    
